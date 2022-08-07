@@ -1,0 +1,28 @@
+{
+	"name": "libserialport",
+	"version": "0.1.1.0",
+	"description": "libserialport (sometimes abbreviated as sp) is a minimal, cross-platform shared library written in C that is intended to take care of the OS-specific details when writing software that uses serial ports.",
+	"category": "Serial",
+	"authors": [
+		{
+			"name": "sigrok",
+			"url": "https://sigrok.org/wiki/Libserialport"
+		},
+		{
+			"name": "Victor",
+			"email": "rhapsodyv@gmail.com",
+			"url": "https://github.com/rhapsodyv/ChanFatFS.git",
+			"maintainer": true
+		}
+	],
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/rhapsodyv/libserialport-pio.git"
+	},
+	"build": {
+		"flags": [
+			"-I include"
+		]
+	}
+}
